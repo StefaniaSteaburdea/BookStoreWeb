@@ -1,0 +1,71 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+
+
+</head>
+<body>
+
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<img src="images/logo.png" width="330" height="186" alt="a" />
+		</div>
+		<div id="menu">
+			<ul>	
+				<li><a href="Homepage.html" accesskey="5" title="">Pagina principală</a></li>
+				<li><a href="index.php" accesskey="5" title="">Cărți</a></li>				
+				<li class="current_page_item"><a href="#" accesskey="1" title="">Contact</a></li> 
+				<li><a href="comanda.html" accesskey="5" title=""><img src="images/cart.png" width="50" height="50" /></a></li>
+				<li><a href="log_in.html" accesskey="5" title=""><img src="images/log_in.png" width="50" height="50" /></a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+		<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" name="trimitemail" action="trimitemail.php" method="POST">
+				<span class="contact100-form-title">
+					Contact
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="nume" type="varchar" name="nume" placeholder="nume">
+					<label class="label-input100" for="nume">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "">
+					<input class="input100" id="email" type="varchar" name="email" placeholder="email">
+					<label class="label-input100" for="email">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<textarea class="input100" id="mesaj" type="text" name="mesaj" placeholder="Mesaj"></textarea>
+				</div>
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn">
+							<input  name="send" type="submit" value="Trimite" class="auto-style1">
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+</body>
+</html>
